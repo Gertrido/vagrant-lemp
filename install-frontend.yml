@@ -1,0 +1,6 @@
+---
+- name: install frontend
+  hosts: local-machine
+  become: True
+  roles:
+    - role: frontend

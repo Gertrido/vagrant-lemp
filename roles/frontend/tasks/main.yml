@@ -1,0 +1,6 @@
+---
+- name: install node.js version={{ node_version }}
+  include_tasks: install-nodejs.yml
+
+- name: install vue-cli
+  shell: npm install -g @vue/cli

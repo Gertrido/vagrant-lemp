@@ -1,0 +1,5 @@
+---
+- shell: curl -sL https://deb.nodesource.com/setup_{{ node_version }}.x | sudo -E bash -
+
+- apt:
+    name: nodejs
