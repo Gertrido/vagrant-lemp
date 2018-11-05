@@ -1,5 +1,5 @@
-# vagrant-lemp
-Vagrant LEMP with 
+# Vagrant LEMP
+Vagrant LEMP with Ansible
 
 ## Current Composition:
 
