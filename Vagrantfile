@@ -21,5 +21,7 @@ Vagrant.configure("2") do |config|
     apt-add-repository ppa:ansible/ansible
     apt update
     apt install ansible -y
+    cd /vagrant
+    ansible-playbook install-components.yml
   SHELL
 end

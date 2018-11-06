@@ -3,4 +3,6 @@
   include_tasks: install-nodejs.yml
 
 - name: install vue-cli
-  shell: npm install -g @vue/cli
+  npm:
+    name: "@vue/cli"
+    global: yes
