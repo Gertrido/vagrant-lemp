@@ -1,0 +1,10 @@
+---
+- name: install php
+  apt:
+    name: "{{ php_packages | list }}"
+    update_cache: yes
+
+- name: install composer
+  apt:
+    name: composer
+    update_cache: yes
