@@ -1,5 +1,5 @@
 ---
-- name: install frontend
+- name: install components
   hosts: local-machine
   become: True
   roles:
