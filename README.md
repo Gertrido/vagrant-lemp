@@ -8,3 +8,5 @@ Vagrant LEMP with Ansible
 * Vue CLI 3
 * PHP 7.2
 * Composer
+* PosgreSQL
+* Nginx

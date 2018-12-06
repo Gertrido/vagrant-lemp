@@ -8,3 +8,13 @@
   apt:
     name: composer
     update_cache: yes
+
+- name: install nginx
+  apt:
+    name: nginx
+    update_cache: yes
+
+- name: install posgresql
+  apt:
+    name: ['postgresql', 'postgresql-contrib']
+    update_cache: yes
